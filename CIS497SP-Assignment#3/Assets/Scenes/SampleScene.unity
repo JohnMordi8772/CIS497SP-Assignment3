@@ -1233,7 +1233,13 @@ MonoBehaviour:
 
     Size:
 
-    E(increase) and D(decrease)'
+    E(increase) and D(decrease)
+
+
+    Reset:
+
+    Press
+    R'
 --- !u!222 &1875345066
 CanvasRenderer:
   m_ObjectHideFlags: 0

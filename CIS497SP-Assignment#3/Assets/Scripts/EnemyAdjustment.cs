@@ -8,6 +8,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyAdjustment : MonoBehaviour, ISubject
 {
@@ -66,6 +67,10 @@ public class EnemyAdjustment : MonoBehaviour, ISubject
         {
             size -= 0.25f;
             NotifyObservers();
+        }
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
